@@ -1,9 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div id="app">
-    <router-view />
+  <div>
+    <div>post list</div>
   </div>
 </template>
-
-<style scoped></style>

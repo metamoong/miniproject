@@ -1,9 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div id="app">
-    <router-view />
+  <div>
+    <div>VUE로 만드는 게시판</div>
   </div>
 </template>
-
-<style scoped></style>
