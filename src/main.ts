@@ -3,6 +3,7 @@ import { createPinia, PiniaVuePlugin } from "pinia";
 
 import App from "./App.vue";
 import router from "./router";
+import "normalize.css";
 
 Vue.use(PiniaVuePlugin);
 

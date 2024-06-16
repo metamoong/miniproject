@@ -25,9 +25,10 @@ const router = new VueRouter({
       path: "/posts/:id",
       name: "PostDetail",
       component: PostDetailView,
+      props: true,
     },
     {
-      path: "new-post",
+      path: "/new-post",
       name: "NewPost",
       component: NewPostView,
     },

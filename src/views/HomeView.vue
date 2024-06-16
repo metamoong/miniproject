@@ -1,17 +1,13 @@
 <script setup lang="ts">
-import { ref } from "vue";
-
-const count = ref(0);
-
-function plus() {
-  count.value++;
-}
+import IntroHeader from "@/components/home/IntroHeader.vue";
+import PostLists from "@/components/home/PostLists.vue";
 </script>
 
 <template>
   <div>
-    <div>composition api test</div>
-    <button @click="plus">+</button>
-    {{ count }}
+    <IntroHeader />
+    <PostLists />
   </div>
 </template>
+
+<style scoped></style>
